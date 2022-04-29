@@ -1,0 +1,94 @@
+#imgTitlePriceDescr {
+    width: 100%;
+    min-height: 500px;
+    border: 2px solid rgba(168, 40, 55);
+    display: flex;
+    padding-right: 20px;
+}
+#imgTitlePriceDescr img {
+    width: 500px;
+    height: 350px;
+}
+#titlePriceDescr p {
+    color: rgba(168, 40, 55);
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+#titlePriceDescr {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titlePriceDescr #title {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+#titlePriceDescr #price {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: green;
+}
+#titlePriceDescr #descr {
+    color: #000;
+}
+#orderBtn {
+    margin: 40px 0 0 0;
+    border: 0;
+    height: 50px;
+    width: 170px;
+    border: 2px solid rgba(168, 40, 55);
+    border-radius: 10px;
+    background: linear-gradient(to right, #62f754, #42d134, #25991a);
+    outline: none;
+    color: #000;
+    font-size: 1.3em;
+}
+#orderBtn:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, #62f754, #42d134, #25991a);
+}
+#comment {
+    width: 100%;
+    height: 100px;
+    margin: 50px 0 0 0;
+    font-size: 1.1em;
+    resize: none;
+}
+#sendComment {
+    width: 100%;
+    height: 40px;
+    margin: 8px auto;
+    border: 2px solid #37a828;
+    background: rgba(168, 40, 55);
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.14em;
+}
+#sendComment:hover {
+    color: #000;
+    border: 2px solid rgba(168, 40, 55);
+    background: #37a828;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#orderDiv {
+    width: 800px;
+    height: 500px;
+    border: 2px solid #000;
+    position: relative;
+    background: rgba(255, 255, 255, 0.6);
+}
+#closeBtn {
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    border: 2px solid #000;
+    border-radius: 50%;
+    color: #000;
+    padding: 5px 9px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.6);
+}

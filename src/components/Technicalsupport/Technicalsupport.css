@@ -1,0 +1,69 @@
+#top {
+  width: 100%;
+  height: 500px;
+  background: url('./../../img/service.jpg') no-repeat center/cover;
+}
+#dropdownsService {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+  border: 2px solid #37a828;
+  padding: 20px;
+  margin: 20px 0 0 0;
+}
+#dropdown1Descr,
+#dropdown2Descr,
+#dropdown3Descr,
+#dropdown4Descr,
+#dropdown5Descr {
+  width: 200px;
+  height: 70%;
+  margin: 20px 0 0 0;
+  color: #000;
+}
+#dropdown1Descr,
+#dropdown2Descr,
+#dropdown3Descr,
+#dropdown4Descr {
+  border-right: 2px solid #37a828;
+}
+#dropdownsService li {
+  color: #37a828;
+  font-weight: bold;
+  list-style-type: disc;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.8em;
+  width: 180px;
+}
+#dropdownsService li:hover {
+  color: rgba(168, 40, 55);
+  transition: 0.2s;
+}
+#onlineChatDiv {
+  width: 70%;
+  height: 40px;
+  margin: 20px auto;
+  border: 2px solid #37a828;
+  background: rgba(168, 40, 55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+#onlineChatDiv:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background: #37a828;
+  border: 2px solid rgba(168, 40, 55);
+  color: #000;
+}
+#if {
+  color: #000;
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-weight: bold;
+  font-size: 1.6em;
+}

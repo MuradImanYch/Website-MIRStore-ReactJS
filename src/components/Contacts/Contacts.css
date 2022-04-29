@@ -1,0 +1,23 @@
+#emailNumberFax * {
+  color: #000;
+}
+#emailNumberFax {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+#emailNumberFax i {
+  color: rgba(168, 40, 55);
+  font-size: 1.3em;
+}
+#emailNumberFax div {
+  font-size: 1.3em;
+}
+#fax a {
+  text-decoration: underline;
+}
+#fax a:hover {
+  color: blue;
+  transition: 0.2s;
+}

@@ -1,0 +1,59 @@
+#orderDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#cardAdressDiv {
+  width: 750px;
+  height: 300px;
+  margin: 10px 0 0 10px;
+  display: flex;
+  justify-content: space-around;
+}
+#cardDiv {
+  height: 100%;
+  width: 300px;
+}
+#adressDiv {
+  height: 60%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#cardDate {
+  width: 70%;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#cardDate input {
+  width: 80px;
+  margin: 20px 0 0 10px;
+  color: #000;
+}
+#cardNumber {
+  margin: 20px 0 0 10px;
+  color: #000;
+}
+#cvv {
+  width: 50px;
+  margin: 30px 0 0 80px;
+  color: #000;
+}
+#cardDate span {
+  margin: 22px 0 0 6px;
+  font-size: 1.5em;
+  color: rgba(168, 40, 55);
+}
+#country,
+#city,
+#adress {
+  width: 240px;
+  color: #000;
+}
+#orderTextarea {
+  height: 100px;
+  resize: none;
+  outline: none;
+}

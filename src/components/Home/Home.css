@@ -1,0 +1,188 @@
+.swiper-container {
+  width: 100%;
+  height: 85vh;
+  border-radius: 10px;
+}
+.swiper-pagination span {
+  height: 15px;
+  width: 15px;
+  background: #37a828;
+  border: 1px solid #000;
+}
+.swiper-button-prev::after {
+  color: #37a828;
+}
+.swiper-button-next::after {
+  color: #37a828;
+}
+.swiper-button-prev:hover::after {
+  padding: 0 10px;
+  background: rgba(138, 212, 157, 0.6);
+  border-radius: 10%;
+  transition: 0.2s;
+  color: #fff;
+  border: 1px solid #000;
+}
+.swiper-button-next:hover::after {
+  padding: 0 10px;
+  background: rgba(138, 212, 157, 0.6);
+  border-radius: 10%;
+  transition: 0.2s;
+  color: #fff;
+  border: 1px solid #000;
+}
+h2 {
+  position: absolute;
+  z-index: 2;
+  color: #000;
+  top: 70%;
+  left: 15%;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 1.6em;
+  background: rgba(168, 40, 55, 0.7);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+h3 {
+  color: rgba(168, 40, 55);
+  text-align: center;
+  margin: 40px 0 0 0;
+  font-size: 1.4em;
+}
+hr {
+  height: 2px;
+  border: 0;
+  background: rgba(168, 40, 55, 0.7);
+}
+.goodsSlider {
+  height: 150px;
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.goodsSlider img {
+  border-radius: 10px;
+}
+.title {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 1.2em;
+  background: rgba(168, 40, 55, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  color: yellow;
+  border: 1px solid yellow;
+}
+.goodsSlider i {
+  position: absolute;
+  font-size: 1.5em;
+  color: rgba(168, 40, 55, 0.6);
+  right: 5%;
+  bottom: 5%;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(168, 40, 55, 0.6);
+}
+.goodsSlider i:hover {
+  color: #37a828;
+  cursor: pointer;
+  border: 1px solid #37a828;
+  transition: 0.2s;
+}
+.price {
+  position: absolute;
+  color: red;
+  left: 5%;
+  top: 5%;
+  background: rgba(168, 40, 55, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  color: green;
+  border: 1px solid green;
+}
+#sale1 {
+  width: 100%;
+  height: 260px;
+  background: #000;
+  overflow: hidden;
+  border: 2px solid #a82837;
+  margin: 30px 0 0 0;
+  cursor: pointer;
+  position: relative;
+}
+#sale1 img {
+  margin: -50px 0 0 0;
+}
+#sale1:hover img {
+  transition: 0.6s;
+  transform: scale(1.2);
+  opacity: 0.4;
+}
+.counter {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background: #000;
+  padding: 10px;
+  font-size: 1.8em;
+  color: red;
+  border: 2px solid red;
+  opacity: 0.8;
+}
+#sale2 {
+  width: 100%;
+  height: 260px;
+  background: #000;
+  overflow: hidden;
+  border: 2px solid #a82837;
+  margin: 50px 0 0 0;
+  cursor: pointer;
+  position: relative;
+}
+#sale2 img {
+  margin: -50px 0 0 0;
+}
+#sale2:hover img {
+  transition: 0.6s;
+  transform: scale(1.2);
+  opacity: 0.4;
+}
+#sale3 {
+  width: 100%;
+  height: 260px;
+  background: #000;
+  overflow: hidden;
+  border: 2px solid #a82837;
+  margin: 50px 0 0 0;
+  cursor: pointer;
+  position: relative;
+}
+#sale3 img {
+  margin: -50px 0 0 0;
+}
+#sale3:hover img {
+  transition: 0.6s;
+  transform: scale(1.2);
+  opacity: 0.4;
+}
+.seconds {
+  display: inline;
+  color: red;
+}
+#special {
+  font-size: 1.4em;
+  color: #a82837;
+  font-weight: bold;
+  text-align: center;
+  margin: 70px 0 0 0;
+}
+#specialHr {
+  background: #a82837;
+}
+#earq {
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}

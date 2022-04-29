@@ -1,0 +1,77 @@
+.cartGoods {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid rgba(168, 40, 55);
+}
+.cartGoods .cartGoodsName {
+  text-decoration: underline;
+  color: rgba(168, 40, 55);
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.cartGoods .cartGoodsName:hover {
+  color: #37a828;
+  transition: 0.2s;
+}
+.cartGoodsDiv {
+  color: #000;
+}
+.cartContainer {
+  width: 80%;
+  height: 150px;
+  border: 2px solid rgba(168, 40, 55);
+  margin: auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: palegoldenrod;
+}
+.cartContainer img {
+  width: 200px;
+  height: 100%;
+  border-radius: 15px;
+}
+.cartTitle {
+  color: rgba(168, 40, 55);
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+.cartPrice {
+  display: inline-block;
+  color: green;
+  font-size: 1.4em;
+}
+.cartManatSymbol {
+  color: green;
+  font-size: 1.4em;
+}
+.cartQuantity,
+.cartQuantity span {
+  color: red;
+  font-size: 1.2em;
+}
+.totalBtn {
+  position: fixed;
+  right: 20%;
+  bottom: 10%;
+  width: 240px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+.totalBtn .cartManatSymbol {
+  font-size: 1.2em;
+}
+.totalSum {
+  color: green;
+  font-size: 1.2em;
+}
+.cartContainer {
+  margin: 10px auto;
+}
+.cartManatSymbol {
+  color: green;
+}
